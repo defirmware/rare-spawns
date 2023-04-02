@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    ul li {
+        display: inline-flex;
+        list-style-type: none;
+        li {
+        font-family: Roboto, sans-serif;
+        border-right: 1px solid #bbb;
+        padding: 20px;
+        }
+        }
+}

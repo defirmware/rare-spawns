@@ -1,0 +1,81 @@
+.contenedor {
+    font-family: Roboto sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "cero uno dos"
+        "tres cuatro cinco"
+        "nueve nueve nueve";
+}
+
+.contimg {
+    background-color: aliceblue;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contimguno {
+    grid-area: cero;
+}
+
+.contimguno {
+    grid-area: uno;
+}
+
+.contimgdos {
+    grid-area: dos;
+}
+
+.contimgtres {
+    grid-area: tres;
+}
+
+.contimgcuatro {
+    grid-area: cuatro;
+}
+
+.contimgcinco {
+    grid-area: cinco;
+}
+
+.contimgnueve {
+    grid-area: nueve;
+}
+
+.imgUs {
+    background-color: gainsboro;
+    color: black;
+    font-family: Roboto sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    height: 90%;
+    width: 90%;
+    text-align: center;
+}
+
+.imgUsb {
+    font-weight: 300;
+    font-size: 25px;
+    width: 50%;
+    max-height: 70%;
+}
+
+.nfts {
+    flex-basis: 33,33%;
+    max-width: 33,33%;
+    padding: 10px;
+}
+
+.nfts img {
+    max-width: 100%;
+    height: auto;
+}

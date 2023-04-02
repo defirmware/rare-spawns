@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+body {
+  margin: 0;
+  font-family: Roboto sans-serif;
+  background-color: aliceblue;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  margin: 30px;
+}
+
+.azure {
+  background-color: azure;
+}
+
+.roboto {
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  font-family: Roboto, sans serif;
+}
+
+.second_paragraph {
+  color: black;
+  text-transform: capitalize;
+  font-size: medium;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.third_paragraph {
+  color: black;
+  text-transform: capitalize;
+  font-size: medium;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 20%;
+  margin-top: 10px;
+}
+
+.smallimg {
+  display: flex;
+  justify-content: space-between;
+  max-width: 320px;
+  justify-content: center;
+  border-radius: 20%;
+  margin-top: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+}
+header ul li {
+  display: inline-flex;
+  list-style-type: none;
+}
+header ul li li {
+  font-family: Roboto, sans-serif;
+  border-right: 1px solid #bbb;
+  padding: 20px;
+}
+
+.contenedor {
+  font-family: Roboto sans-serif;
+  margin: 0;
+  background-color: aliceblue;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(3, 300px);
+  grid-template-areas: "cero uno dos" "tres cuatro cinco" "nueve nueve nueve";
+}
+
+.contimg {
+  background-color: aliceblue;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contimguno {
+  grid-area: cero;
+}
+
+.contimguno {
+  grid-area: uno;
+}
+
+.contimgdos {
+  grid-area: dos;
+}
+
+.contimgtres {
+  grid-area: tres;
+}
+
+.contimgcuatro {
+  grid-area: cuatro;
+}
+
+.contimgcinco {
+  grid-area: cinco;
+}
+
+.contimgnueve {
+  grid-area: nueve;
+}
+
+.imgUs {
+  background-color: gainsboro;
+  color: black;
+  font-family: Roboto sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  height: 90%;
+  width: 90%;
+  text-align: center;
+}
+
+.imgUsb {
+  font-weight: 300;
+  font-size: 25px;
+  width: 50%;
+  max-height: 70%;
+}
+
+.nfts {
+  flex-basis: 33, 33%;
+  max-width: 33, 33%;
+  padding: 10px;
+}
+
+.nfts img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  display: flex;
+  margin: auto;
+  border-radius: 20%;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 500px;
+  height: auto;
+}
+
+.banner2 {
+  display: flex;
+  margin: auto;
+  border-radius: 20%;
+  margin-top: 10px;
+  max-height: 500px;
+  width: 100vh;
+}
+
+.nfts {
+  flex-basis: 33, 33%;
+  max-width: 33, 33%;
+  padding: 10px;
+}
+
+.nfts img {
+  max-width: 100%;
+  height: auto;
+}
+
+.padre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.hijo {
+  justify-content: center;
+  border-radius: 20%;
+  margin-top: 10px;
+}
+
+footer {
+  margin: auto;
+  margin-top: 0;
+  background-color: wheat;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 1366px) {
+  body {
+    background-color: silver;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .contenedor {
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(4, 300px);
+    grid-template-areas: "cero uno" "dos tres" "cuatro cinco" "nueve nueve";
+  }
+}
+@media screen and (max-width: 720px) {
+  .contenedor {
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(7, 300px);
+    grid-template-areas: "cero" "uno" "dos" "tres" "cuatro" "cinco" "nueve";
+  }
+}
+@media screen and (max-width: 360px) {
+  .contenedor {
+    grid-template-columns: repeat(1, 200px);
+    grid-template-rows: repeat(7, 300px);
+    grid-template-areas: "cero" "uno" "dos" "tres" "cuatro" "cinco" "nueve";
+  }
+}
+@media screen and (max-width: 2800px) {
+  .nfts {
+    flex-basis: 30%;
+    max-width: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nfts {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nfts {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .padre {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=sass.css.map */
