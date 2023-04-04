@@ -1,0 +1,20 @@
+@mixin paragraph {
+    color: black;
+    text-transform: capitalize;
+    font-size: medium;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.second_paragraph {
+    @include paragraph
+
+}
+
+.third_paragraph {
+    @include paragraph;
+    color: rgb(70, 6, 6);
+}

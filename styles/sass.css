@@ -34,26 +34,6 @@ p {
   font-family: Roboto, sans serif;
 }
 
-.second_paragraph {
-  color: black;
-  text-transform: capitalize;
-  font-size: medium;
-  text-align: center;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-}
-
-.third_paragraph {
-  color: black;
-  text-transform: capitalize;
-  font-size: medium;
-  text-align: center;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-}
-
 img {
   display: block;
   margin: auto;
@@ -97,8 +77,7 @@ header ul li li {
   grid-template-rows: repeat(3, 300px);
   grid-template-areas: "cero uno dos" "tres cuatro cinco" "nueve nueve nueve";
 }
-
-.contimg {
+.contenedor .contimg {
   background-color: aliceblue;
   width: 100%;
   height: 300px;
@@ -269,4 +248,24 @@ footer {
   .padre {
     flex-direction: column;
   }
+}
+.second_paragraph {
+  color: black;
+  text-transform: capitalize;
+  font-size: medium;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.third_paragraph {
+  color: black;
+  text-transform: capitalize;
+  font-size: medium;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: rgb(70, 6, 6);
 }/*# sourceMappingURL=sass.css.map */
