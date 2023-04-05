@@ -53,3 +53,17 @@ img {
     border-radius: 20%;
     margin-top: 10px;
 }
+
+.animated-header {
+    opacity: 0;
+}
+
+.animated-header {
+    opacity:1;
+    animation: fade-in 2s ease-out;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -18,3 +18,15 @@
     @include paragraph;
     color: rgb(70, 6, 6);
 }
+
+.fourth_paragraph {
+    color: black;
+    text-transform: none;
+    font-size:x-large;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
