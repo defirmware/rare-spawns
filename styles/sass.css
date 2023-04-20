@@ -199,6 +199,7 @@ header ul li li {
   flex-basis: 33, 33%;
   max-width: 33, 33%;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .nfts img {
@@ -220,15 +221,6 @@ header ul li li {
 }
 
 footer {
-  margin: auto;
-  margin-top: 0;
-  background-color: wheat;
-}
-
-.indexfooter {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   margin: auto;
   margin-top: 0;
   background-color: wheat;
