@@ -98,6 +98,10 @@ header ul li li {
   padding: 20px;
 }
 
+.nav-item {
+  font-style: bold;
+}
+
 .contenedor {
   font-family: Roboto sans-serif;
   margin: 0;
