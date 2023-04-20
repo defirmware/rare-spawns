@@ -67,7 +67,8 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @keyframes fade-in {
