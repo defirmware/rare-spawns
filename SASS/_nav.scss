@@ -22,3 +22,8 @@ header {
     font-style: bold;
 }
 
+.nav-link:hover {
+    color: #fff; 
+    background-color: #ddecfc; 
+    transition: all 0.3s ease-in-out;
+}
